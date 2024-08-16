@@ -29,8 +29,8 @@ def calculadora(num1, num2, op):
         resultado = "Operação inválida"
     return resultado
 #Cria-se uma função chamada calculadora, informando dois números e a operação
-#Na linha 2 dessa função, utiliza-se a condição "IF" para habilitar diversos tipos de caracteres para escolher a operacao
-#Na linha 3 dessa função, resgata a função anterior "Adição"
+#Na linha 2 dessa função, utiliza-se a condição "IF" + "IN" para habilitar diversos tipos de caracteres para escolher a operacao
+#Na linha 3 dessa função, resgata a função anterior "Adição" e assim por diante nas outras operações.
 #Lembrar de sempre está colocando a aspas simples nos termos dentro dos colchetes
 #A última condição deverá ser sempre a "ELSE"
 
@@ -43,3 +43,6 @@ while saida.lower() != 'n':
     saida = input('Deseja continuar? Digite S para SIM e N para NÃO')
 print('Por favor, insira um número válido. ')
 print('Programa encerrado')
+#A sintax "WHILE" é para manter o programa em execução caso o usuário deseje sair.
+#Da linha 38 à 40 ele pede para o usuário informar os valores e a operação desejada.
+#Após isso lança atribui valor a variável "RESULTADO", fazendo um gancho da função "CALCULADORA"

@@ -5,5 +5,7 @@ for item in texto:
 
 for num in range (1, 11):
     print ('número do intervalo: ', str(num))
+    # O comando "STR" serve para concatenar o comando do print com a variável do for "NUM"
+    
 
            
