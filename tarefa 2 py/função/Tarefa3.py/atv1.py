@@ -10,3 +10,5 @@ print(lista_mesclada)
 
 nlist = lista_mesclada[:4]
 print(nlist)
+
+

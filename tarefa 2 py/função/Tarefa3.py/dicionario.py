@@ -8,7 +8,7 @@ dicio = {
 print('Conteúdo do meu dicionário é: ', dicio) 
 print('O tipo de dados do dicionário é: ', type(dicio))
 
-valor = dicio.get(1)
+valor = dicio.get(3)
 print('valor da chave 1 é: ', valor)
 #Declaro uma variável para chamar o valor da chave.
 
@@ -31,7 +31,6 @@ for chave, valor in dicionario_frutas.items():
     print ('Chave 3 - Nome: ', dicionario_frutas[3]["nome"], ", Tipo: ", dicionario_frutas[3]["tipo"])
     print ('Chave 4 - Nome: ', dicionario_frutas[4]["nome"], ", Tipo: ", dicionario_frutas[4]["tipo"])
     print ('Chave 5 - Nome: ', dicionario_frutas[5]["nome"], ", Tipo: ", dicionario_frutas[5]["tipo"])
-else: print("ACABOU")
 
 # for chave, valor in: Esta é a parte do laço for que define duas variáveis, chave e valor.
 # Como explicado, .items() retorna uma coleção de tuplas onde cada tupla é um par (chave, valor) do dicionário.
